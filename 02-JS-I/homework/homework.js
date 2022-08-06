@@ -65,7 +65,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x == y) {
+  if (x === y) {
     devolucion = true;
   } else {
     devolucion = false;
@@ -78,7 +78,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-  if (str1 == str2) {
+  if (str1 === str2) {
     rta = true;
   } else {
     rta = false;
@@ -200,9 +200,9 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
 
-  if ( Math.sign(numero) == 1 ) {
+  if ( Math.sign(numero) === 1 ) {
     var1 = 'Es positivo';
-  } else if ( Math.sign(numero) == -1 ) {
+  } else if ( Math.sign(numero) === -1 ) {
     var1 = 'Es negativo'; 
   } else {
     var1 = false;
@@ -309,19 +309,19 @@ function esVocal(letra){
 
   // return rta;
 
-  if (letra == 'a') {
+  if (letra === 'a') {
     rta = 'Es vocal'
-  } else if ( letra == 'e' ) {
+  } else if ( letra === 'e' ) {
     rta = 'Es vocal'
-  } else if ( letra == 'i' ) {
+  } else if ( letra === 'i' ) {
     rta = 'Es vocal'
-  } else if ( letra == 'o' ) {
+  } else if ( letra === 'o' ) {
     rta = 'Es vocal'
-  } else if ( letra == 'u' ) {
+  } else if ( letra === 'u' ) {
     rta = 'Es vocal'
-  } else if ( letra == 'la' ) {
+  } else if ( letra === 'la' ) {
     rta = "Dato incorrecto"
-  } else if ( letra == 'l' ) {
+  } else if ( letra === 'l' ) {
     rta = "Dato incorrecto"
   }
 
